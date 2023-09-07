@@ -6,11 +6,17 @@
     <title>C PROGRAMING</title>
     <STYLE>
         #a1{
-            background-image: url("png.png");
+            background-color:rgb(248, 172, 172);
             margin: auto;
         }
+        .heading a{
+            text-decoration: none;
+        }
+        .heading a:hover{
+            color: aqua;
+        }
         .heading{
-            color:blueviolet; background-color: aqua;
+            color:blueviolet; background-color: rgb(255, 0, 212);
                 
             width: 10em; height: 1.5em;
             font-size: 4em;
@@ -28,7 +34,7 @@
             margin: auto;
         }
         .para{
-            color:aqua;
+            color:rgb(14, 65, 65);
             padding: 10px;
             font-size:1.5em;
             font-style: italic;
@@ -42,20 +48,63 @@
             color:red;
         }
         .numberheading{
-            color: greenyellow;
+            color: rgb(59, 97, 1);
             font-size: 2em;
             font-family: cursive;
+            padding: 5px;
             
        }
-       .homepage{
-            border: 10px solid rgb(160, 204, 0); background-color: rgb(162, 226, 43); width: 600px; margin: auto;
-
+        .navbar{
+            background-color: brown;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin: 15px 25px;
+            background-color: rgb(255, 123, 0);
+            border: none;
+            border-radius: 10px;
+            padding: 10px;
+            font-family: cursive;
+            font-size: 20px;
+        }
+        .navbar li a{
+            color: aqua;
+            text-decoration: none;
+        }
+        .navbar li a:hover{
+            color: azure;
+        }
+        .backbotton{
+            border: 6px solid darkcyan;border-radius: 10px; background-color: rgb(172, 207, 228);
+            font-size: 30px;
+            font-family: cursive;
+            width: 100px;
+            padding: 10px 20px 10px 20px;
+            margin: auto;
+            text-decoration: none;
+        }
+        .backbotton:hover{
+            color: blanchedalmond;
         }
         
     </STYLE>
 </head>
 <body id="a1">
     <h1 class="heading"><a href="c.programing.html">C PROGRAMING</a></h1>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="index.html">TENSE</a></li>
+                <li><a href="c.programing.html">C++ PROGRAMING</a></li>
+                <li><a href="#">JAVA PROGRAMING</a></li>
+            </ul>
+        </nav>
+    </header><br>
     <p class="paragraph">C programming is a widely used and influential programming language that was developed in the early <em class="importent"> 1972s</em> at Bell Labs by <em class="importent"> Dennis Ritchie.</em> It is a general-purpose programming language known for its simplicity and efficiency, and it has had a significant impact on the development of many other programming languages. </p>
     <ol>
         <li class="numberheading">Procedural Language</li>
@@ -75,9 +124,7 @@
         <li class="numberheading">Influence on Other Languages</li>
         <a class="para">C has had a significant influence on the development of many other programming languages, including C++, C#, Objective-C, and more. Understanding C can be beneficial when learning these related languages.</a>
     </ol>
-    <h1 class="homepage"><a href="home.html">GO TO HOME PAGE</a></h1>
-    <h1 class="homepage"><a href="index.html">GO TO TENSE</a></h1>
-    <H1 class="homepage"><a href="index.html"> GO TO TENSE PAGE</a></H1>
+    <a class="backbotton" href="c.programing.html">GO TO TOP</a>
     
 </body>
 </html>
