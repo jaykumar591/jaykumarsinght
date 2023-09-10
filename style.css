@@ -1,0 +1,113 @@
+.left{
+    /* border: 2px solid rgb(156, 141, 0); */
+    display:inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    l
+
+}
+.left:hover{
+    color: red;
+}
+.mid{
+    display: block;
+    width: 55%;
+    margin: 12px auto;
+    top: 22px;
+    /* border: 2px solid rgb(0, 255, 255); */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    /* border: 2px solid rgb(0, 204, 255);  */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 8px 19px 8px 19px;
+}
+.navbar li a:hover{
+    color: rgb(2, 0, 112);
+    border:none;
+    background-color: rgba(255, 0, 0, 0.39);
+    border-radius: 10px;
+    padding: 18px;
+    margin: 10pxp;
+}
+.navbar li a:hover,.navbar li a.active{
+    text-decoration: underline;
+}
+.left img{
+    filter: invert(100%);
+    width: 40px;
+}
+.left div{
+    line-height: 19px;
+    font-size: 26px;
+    text-align: center;
+    text-align: center;
+}
+.btn{
+    display: block;
+    margin: 0px auto;
+    padding: 0px 9px;
+    color: aquamarine;
+    background-color: black;
+    padding: 6px 14px;
+    border: 2px solid darkorchid;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+}
+.btn:hover{
+    color: red;background-color: rgb(231, 197, 197);
+}
+.container{
+    /* border: 2px solid rgb(228, 174, 174); */
+    margin: 40px auto;
+    padding:70px;
+    border-radius: 20px;
+    width: 40%;
+}
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 250px;
+    color: rgb(6, 54, 141);
+    margin: 11px auto;
+    padding: 10px 5px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+}
+.form-group input:hover{
+    color: rgb(2, 146, 146);
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(231, 144, 144);
+}
+.container h1{
+    text-align: center;
+    color: blueviolet;
+    display: block;
+    font-size: 50px;
+}
+.form-group button{
+    display: block;
+    width: 200px;
+    font-size: 2.2em;
+    margin: auto;
+}
