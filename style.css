@@ -154,7 +154,7 @@
     width: 250px;height: 180px;position: relative;top: 230px;right: 100px;
 }
 .container2{
-    background-image: url("bg.jpg");filter: brightness(0.9);
+    background-image: url("bg.jpg");filter: brightness(0.9);background-size: 100%;
     height: 230px;box-shadow: 1px 20px 20px red , 1px 10px 50px green;
 }
 .container2 .box3{
@@ -176,7 +176,7 @@
     background-image: url("contact.jpg");background-size: 100%;height: 70vh;display: flex;align-items: center;justify-content: center;
 }
 .container4 ul{
-    display: flex; flex-direction: column;justify-content: center;align-items: center;
+    background-image: url("contact.jpg");display: flex;align-items: center;justify-content: center;background-size: 100vh;
     
 }
 .container4 ul li{
