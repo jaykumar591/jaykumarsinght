@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAPPY DIWALI</title>
+    <style>
+        body{
+            background-image: url("bg.jpg");
+        }
+        .container{
+            display: flex;justify-content: center;align-items: center;
+        }
+        @keyframes rotate{
+    0%{
+      transform: scale(1.1) rotate(0deg);
+    }
+    100%{
+      transform: scale(1.1) rotate(360deg);
+    }
+  }
+
+  @keyframes animate{
+      0%{
+          transform: rotate(20deg);
+          box-shadow: 0 0 30px rgb(255, 255, 0);
+      }
+      25%{
+          transform: rotate(10deg);
+      }
+      50%{
+          transform: rotate(5deg);
+      }
+      75%{
+          transform: rotate(15deg);
+          box-shadow: 0 0 30px rgb(255, 255, 0);
+      }
+      100%{
+          transform: rotate(20deg);
+      }
+  }
+        .circule{
+            border: 2px solid black;
+            border-radius: 50%;
+            width: 350px;height: 350px
+            ;background-color: rgb(189, 130, 20);display: flex;
+            align-items: center;justify-content: center;position: fixed;bottom: 100px;
+        }
+        .diya{
+            width: 290px;height: 145px;background-color: brown;
+            border: 2px solid rgb(139, 91, 19);
+            border-bottom-left-radius: 500px;
+            border-bottom-right-radius: 500px;
+            position: fixed;bottom: 101px;
+            display: flex;justify-content: center;align-items: center;
+        }
+        .bati{
+            width: 20px;height: 60px;border: 2px solid rgb(255, 230, 0);
+            background: linear-gradient(yellow , rgb(255, 166, 0));
+            position: fixed;bottom: 251px;
+            border-top-right-radius: 70px;
+            border-bottom-left-radius: 70px;
+            filter: blur(1.1px);
+            box-shadow: 2px 2px 4px rgb(255, 100, 0);
+            animation: batimotion 12s infinite;
+        }
+        @keyframes batimotion {
+            0%{
+                transform: rotate(1deg);
+            }
+            20%{
+                transform: rotate(10deg);
+            }
+            30%{
+                transform: rotate(15deg);
+            }
+            40%{
+                transform: rotate(20deg);
+            }
+            50%{
+                transform: rotate(25deg);
+            }
+            60%{
+                transform: rotate(30deg);
+            }
+            70%{
+                transform: rotate(25deg);
+            }
+            80%{
+                transform: rotate(20deg);
+            }
+            90%{
+                transform: rotate(10deg);
+            }
+            100%{
+                transform: rotate(0deg);
+            }
+        }
+        .container > h1{
+            font-family: cursive;
+            position: relative;bottom: -200px;z-index: 3;
+            animation: text1  2s infinite ease-in;
+        }
+        @keyframes text1 {
+            to{
+                text-shadow: 10px;color: aqua;transform: scale(1);
+            }
+            from{
+                text-shadow: 20px;color: rgb(42, 165, 97);transform: scale(1.1);
+            }
+        }
+        footer{
+            border: 2px solid red;
+            
+            width: 400px;height: 60px;color: aqua;
+            position: relative;top: 450px;left: 500px;background-color: blue;
+
+        }
+    </style>
+</head>
+<body>
+        <div class="container">
+            <h1>HAPPY DIWALI</h1>
+            <div class="circule">
+                <div class="diya">
+                    <div class="bati">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="Home.html">GO MY WEBSIDE</a>
+        <footer>
+            <h1>CRRATED BY JAY KUMAR</h1>
+        </footer>
+    
+</body>
+</html>
