@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .navbar div{
-    background-color: rgb(230, 174, 20); overflow: auto;
+    background-color: rgb(230, 174, 20); overflow: auto;position: fixed;
 }
 .navbar  li{
     float: left;
@@ -17,6 +17,7 @@
     transition:  1s;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
+    
 }
 .navbar  li:hover{
     background-color: red;
