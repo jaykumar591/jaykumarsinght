@@ -3,7 +3,7 @@
     padding: 0px;
 }
 .navbar div{
-    background-color: rgb(230, 174, 20); overflow: auto;position: fixed;z-index:50;
+    background-color: rgb(230, 174, 20); overflow: auto;
 }
 .navbar  li{
     float: left;
